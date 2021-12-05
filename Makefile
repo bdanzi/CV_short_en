@@ -1,20 +1,20 @@
-tex: cv_duarte_javier_ext cv_duarte_javier publist_biobib PersonalStatement2021
+tex: cv_danzi_brunella_ext cv_danzi_brunella publist_biobib PersonalStatement2021
 
-cv_duarte_javier:
-	pdflatex -interaction=nonstopmode -synctex=-1 cv_duarte_javier
-	biber cv_duarte_javier
-	pdflatex -interaction=nonstopmode -synctex=-1 cv_duarte_javier
-	pdflatex -interaction=nonstopmode -synctex=-1 cv_duarte_javier
-	pdflatex -interaction=nonstopmode -synctex=-1 cv_duarte_javier
+cv_danzi_brunella:
+	pdflatex -interaction=nonstopmode -synctex=-1 cv_danzi_brunella
+	biber cv_danzi_brunella
+	pdflatex -interaction=nonstopmode -synctex=-1 cv_danzi_brunella
+	pdflatex -interaction=nonstopmode -synctex=-1 cv_danzi_brunella
+	pdflatex -interaction=nonstopmode -synctex=-1 cv_danzi_brunella
 
-cv_duarte_javier_ext:
-	sed -e 's/extfalse/exttrue/g' cv_duarte_javier.tex > cv_duarte_javier_ext.tex
-	pdflatex -interaction=nonstopmode -synctex=-1 cv_duarte_javier_ext
-	biber cv_duarte_javier_ext
-	pdflatex -interaction=nonstopmode -synctex=-1 cv_duarte_javier_ext
-	pdflatex -interaction=nonstopmode -synctex=-1 cv_duarte_javier_ext
-	pdflatex -interaction=nonstopmode -synctex=-1 cv_duarte_javier_ext
-	rm cv_duarte_javier_ext.tex
+cv_danzi_brunella_ext:
+	sed -e 's/extfalse/exttrue/g' cv_danzi_brunella.tex > cv_danzi_brunella_ext.tex
+	pdflatex -interaction=nonstopmode -synctex=-1 cv_danzi_brunella_ext
+	biber cv_danzi_brunella_ext
+	pdflatex -interaction=nonstopmode -synctex=-1 cv_danzi_brunella_ext
+	pdflatex -interaction=nonstopmode -synctex=-1 cv_danzi_brunella_ext
+	pdflatex -interaction=nonstopmode -synctex=-1 cv_danzi_brunella_ext
+	rm cv_danzi_brunella_ext.tex
 
 publist_biobib:
 	pdflatex -interaction=nonstopmode -synctex=-1 publist_biobib
@@ -47,4 +47,4 @@ clean:
 	find . -type f -name '*.aux' -delete
 
 realclean: clean
-	rm -f cv_duarte_javier*.ps cv_duarte_javier*.pdf publist_biobib*.ps publist_biobib*.pdf PersonalStatement2021*.ps PersonalStatement2021*.pdf
+	rm -f cv_danzi_brunella*.ps cv_danzi_brunella*.pdf publist_biobib*.ps publist_biobib*.pdf PersonalStatement2021*.ps PersonalStatement2021*.pdf
