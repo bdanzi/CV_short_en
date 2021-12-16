@@ -22,7 +22,24 @@ import copy
 #13	Writing-Original Draft
 #14	Writing-Reviewing and Editing
 #15	Other
-author_codes = {
+author_codes = {'neurips2019_sonic': [1,2,9,12,13],
+                'neurips2019_hbb': [1,2,6,9,10,12,13],
+                'neurips2019_hls4ml': [1,2,6,9,12,13],
+                'CERN-LHCC-2020-004': [9,13,14,15],
+                'DiGuglielmo:2020eqx': [1,9,14],
+                'Zlokapa:2019tkn': [4,14],
+                'Duarte:2019fta': [1,2,9,12,13],
+                'Moreno:2019bmu': [1,2,6,9,10,12,13],
+                'Moreno:2019neq': [1,2,6,9,10,12,13],
+                'Sirunyan:2019pnb': [7,8,9,10],
+                'Sirunyan:2019sgo': [7,8,9,10],
+                'Sirunyan:2019vgj': [7,8,9,10],
+                'Sirunyan:2019vxa': [7,8,9,10],
+                'Summers:2020xiy': [1,2,6,8,9,10,14],
+                'Sirunyan:2020hwz': [1,2,6,8,9,10,12,13],
+                'Krupa:2020bwg': [1,2,4,6,8,9,10,14],
+                'Iiyama:2020wap': [1,2,6,9,10,14],
+                'CMS': [8,9]
                 }
 with open('bib_publications.bib') as bibtex_file:
     bib_database = bibtexparser.load(bibtex_file)
