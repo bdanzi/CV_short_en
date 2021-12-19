@@ -122,16 +122,16 @@
 }
 
 \DeclareOption{ucsd}{
-  \renewcommand{\ucl@univ}{UCSD}
-  \renewcommand{\ucl@campus}{San Diego}
+  \renewcommand{\ucl@univ}{UNIBA}
+  \renewcommand{\ucl@campus}{Bari}
   \renewcommand{\ucl@school}{}
   \DeclareOption{cs}{
-    \renewcommand{\ucl@dept}{Department of Physics}
-    \renewcommand{\ucl@deptphone}{(858)~246-4980}
+    \renewcommand{\ucl@dept}{Department of Physics M. Merlin}
+    \renewcommand{\ucl@deptphone}{(080)~544-2437}
     \renewcommand{\ucl@deptfax}{}
-    \renewcommand{\ucl@depturl}{https://physics.ucsd.edu/}
-    \renewcommand{\ucl@univstreet}{9500 Gilman Drive, 0319}
-    \renewcommand{\ucl@univtown}{La Jolla, California 92093-0319}
+    \renewcommand{\ucl@depturl}{https://www.uniba.it/english-version}
+    \renewcommand{\ucl@univstreet}{Via Orabona, 4}
+    \renewcommand{\ucl@univtown}{70125, Bari (BA), Italy}
   }
 }
 
@@ -197,13 +197,13 @@
 \newsavebox{\@ucletterhead}
 \sbox{\@ucletterhead}{\parbox[b]{7in}{
     \begin{tabular*}{7in}{@{}l@{\extracolsep\fill}r@{}}
-      \@twlrm\selectfont UNIVERSITY OF CALIFORNIA, {\MakeUppercase \ucl@campus} &
+      \@twlrm\selectfont UNIVERSITY OF BARI, {\MakeUppercase \ucl@campus} &
     \end{tabular*}\\
     \begin{tabular*}{7in}{@{}l@{}c@{}r@{}}
       \parbox{4.60in}{\rule{4.55in}{0.25pt} \\
-        \@svnrm BERKELEY\@ctrdot DAVIS\@ctrdot IRVINE\@ctrdot
-        LOS ANGELES\@ctrdot MERCED\@ctrdot RIVERSIDE\@ctrdot
-        SAN DIEGO\@ctrdot SAN FRANCISCO\hspace\fill \\
+        \@svnrm BARI\@ctrdot BOLOGNA\@ctrdot CAGLIARI\@ctrdot
+        CATANIA\@ctrdot FERRARA\@ctrdot FIRENZE\@ctrdot
+        GENOVA\@ctrdot LECCE\hspace\fill \\
         \rule[3pt]{4.55in}{0.25pt}} &
       \parbox{0.75in}{\resizebox{0.75in}{!}{\includegraphics{ucsealnew}}}
       \parbox{1.6in}{\rule{1.6in}{0.25pt} \\
