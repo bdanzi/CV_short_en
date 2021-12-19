@@ -6,6 +6,8 @@ CV for Brunella D'Anzi
 [![GitHub view](https://img.shields.io/badge/GitHub-render-green.svg)](https://github.com/bdanzi/CV/blob/gh-pages/cv_danzi_brunella.pdf)
 [![download](https://img.shields.io/badge/Download-build-blue.svg)](https://github.com/bdanzi/CV/raw/gh-pages/cv_danzi_brunella.pdf)
 [![download](https://img.shields.io/badge/Download-build-blue.svg)](https://github.com/bdanzi/CV/raw/gh-pages/publist_biobib.pdf)
+[![download](https://img.shields.io/badge/Download-build-blue.svg)](https://github.com/bdanzi/CV/raw/gh-pages/PersonalStatement2021.pdf)
+[![download](https://img.shields.io/badge/Download-build-blue.svg)](https://github.com/bdanzi/CV/raw/gh-pages/cv_danzi_brunella_ext.pdf)
 
 ## Instructions
 
