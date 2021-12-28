@@ -203,12 +203,11 @@
       \parbox{4.60in}{\rule{4.55in}{0.25pt} \\
         \@svnrm BARI\@ctrdot BOLOGNA\@ctrdot CAGLIARI\@ctrdot
         CATANIA\@ctrdot FERRARA\@ctrdot FIRENZE\@ctrdot
-        GENOVA\@ctrdot LECCE\@ctrdot MILANO \@ctrdot MILANO BICOCCA\@ctrdot NAPOLI\@ctrdot PADOVA\@ctrdot PAVIA\@ctrdot PERUGIA\@ctrdot PISA\@ctrdot ROMA\hspace\fill \\
+        GENOVA\@ctrdot LECCE\@ctrdot MILANO\@ctrdot MILANO BICOCCA\@ctrdot NAPOLI\@ctrdot PADOVA\@ctrdot PAVIA\@ctrdot PERUGIA\@ctrdot PISA\@ctrdot ROMA\\
         \rule[3pt]{4.55in}{0.25pt}} &
       \parbox{0.75in}{\resizebox{0.75in}{!}{\includegraphics{ucsealnew}}}
       \parbox{1.6in}{\rule{1.6in}{0.25pt} \\
-        \rule{0mm}{4pt}\hspace\fill
-        \@svnrm ROMA TOR VERGATA\@ctrdot ROMA TRE\@ctrdot TORINO\@ctrdot TRIESTE\hspace*{1pt} \\
+        \rule{0mm}{4pt}\@svnrm ROMA TOR VERGATA\@ctrdot ROMA TRE\@ctrdot TORINO\@ctrdot TRIESTE\hspace*{1pt} \\
         \rule[3pt]{1.6in}{0.25pt}}
     \end{tabular*}
     \vspace*{24pt}
