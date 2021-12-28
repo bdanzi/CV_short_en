@@ -197,7 +197,7 @@
 \newsavebox{\@ucletterhead}
 \sbox{\@ucletterhead}{\parbox[b]{7in}{
     \begin{tabular*}{7in}{@{}l@{\extracolsep\fill}r@{}}
-      \@twlrm\selectfont UNIVERSITY OF BARI, {\MakeUppercase \ucl@campus} &
+      \@twlrm\selectfont UNIVERSITY OF BARI ALDO MORO, {\MakeUppercase \ucl@campus} &
     \end{tabular*}\\
     \begin{tabular*}{7in}{@{}l@{}c@{}r@{}}
       \parbox{4.60in}{\rule{4.55in}{0.25pt} \\
