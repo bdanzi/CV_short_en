@@ -34,7 +34,7 @@ VerbiageChair2021:
 		pdflatex -interaction=nonstopmode -synctex=-1 VerbiageChair2021
 
 clip:
-	cpdf -i PersonalStatement2021.pdf -range 1-3,4-end -o PersonalStatement2021.pdf
+	cpdf -i PersonalStatement2021.pdf -range 1-3,4-end -o PersonalStatement2021_clip.pdf
 
 lint:
 	grep -E --color=always -r -i --include=\*.tex --include=\*.bib "(\b[a-zA-Z]+) \1\b" || true
