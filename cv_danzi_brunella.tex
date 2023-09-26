@@ -20,12 +20,8 @@
 \usetikzlibrary{svg.path}
 \tikzset{
   linkedinlogo/.pic={
-    % Background circle
-    \fill[linkedinblue] circle (0.5*\linewidth);
-    % InLogo "in" part
-    \fill[white] ($(0.45*\linewidth,0.35*\linewidth) + (0,0.15*\linewidth)$) to[out=0, in=160] ($(0.45*\linewidth,0.35*\linewidth) + (0,0.05*\linewidth)$) to[out=200, in=20] cycle;
-    % InLogo "i" part
-    \fill[linkedinblue] ($(0.45*\linewidth,0.35*\linewidth) + (0,0.1*\linewidth)$) circle (0.05*\linewidth);
+    \fill[linkedinblue] svg{M4.313 0a4.313 4.313 0 100 8.626A4.313 4.313 0 004.313 0zM1.072 15.313H7.7V5.124H1.072zm4.313-11.65a.862.862 0 110-1.726.862.862 0 010 1.726z}
+    \fill[white] svg{M8.54 15.313V5.125H15.16v10.188H8.54zM17.667 0H1.073A1.073 1.073 0 000 1.073v14.157c0 .59.484 1.073 1.073 1.073H17.67A1.073 1.073 0 0018.743 15.23V1.073A1.073 1.073 0 0017.67 0z}
   }
 }
 
