@@ -16,6 +16,16 @@
 \usepackage{scalerel}
 \usepackage{tikz}
 \usetikzlibrary{svg.path}
+\tikzset{
+  linkedinlogo/.pic={
+    % Background circle
+    \fill[linkedinblue] circle (0.5*\linewidth);
+    % InLogo "in" part
+    \fill[white] ($(0.45*\linewidth,0.35*\linewidth) + (0,0.15*\linewidth)$) to[out=0, in=160] ($(0.45*\linewidth,0.35*\linewidth) + (0,0.05*\linewidth)$) to[out=200, in=20] cycle;
+    % InLogo "i" part
+    \fill[linkedinblue] ($(0.45*\linewidth,0.35*\linewidth) + (0,0.1*\linewidth)$) circle (0.05*\linewidth);
+  }
+}
 
 \tikzset{
   orcidlogo/.pic={
@@ -62,6 +72,11 @@ websitelogo/.pic={
 \fill[black] svg{M0,0V200H200V0M98,0a84,84 0 0,0 102,28v7A89,89 0 0,1 90,0M43,0a132,132 0 0,0 157,79v7A138,138 0 0,1 36,0M0,35a190,190 0 0,0 200,99v7A195,195 0 0,1 0,48M0,110a240,240 0 0,0 200,70v6A245,245 0 0,1 0,120};
 }  
 }
+\newcommand\linkedinicon[1]{\href{https://www.linkedin.com/in/#1}{\mbox{\scalerel*{
+\begin{tikzpicture}
+\pic{linkedinlogo};
+\end{tikzpicture}
+}{|}}}}
 \newcommand\orcidicon[1]{\href{https://orcid.org/#1}{\mbox{\scalerel*{
 \begin{tikzpicture}[yscale=-1,transform shape]
 \pic{orcidlogo};
@@ -241,7 +256,7 @@ Via Orabona 4, I floor, office n. 21, 70126 Bari (BA), Italy\\
 %office: First floor, R21\\
 {\textbf{E-mail:}} \href{mailto:brunella.danzi@ba.infn.it}{brunella.danzi@ba.infn.it}\\
 {\textbf{Website:}} \href{https://www.ba.infn.it/bdanzi/}{https://www.ba.infn.it/bdanzi/}\\
-{\textbf{Other websites:}} ~\orcidicon{0000-0002-9361-3142}~\inspireicon{1969305}~\arxivicon{danzi_b_1}~\researchgateicon{Brunella_Danzi}~\githubicon{bdanzi}~\emailicon{brunella.d'anzi@cern.ch}\\
+{\textbf{Other websites:}} ~\linkedinicon{brunella-d-anzi}~\orcidicon{0000-0002-9361-3142}~\inspireicon{1969305}~\arxivicon{danzi_b_1}~\researchgateicon{Brunella_Danzi}~\githubicon{bdanzi}~\emailicon{brunella.d'anzi@cern.ch}\\
 {\textbf{Mobile Phone:}} (+39) 328 71 40 953\\
 {\textbf{Institutes:}} \href{https://www.uniba.it/en}{University \textit{Aldo Moro}} and \href{https://www.ba.infn.it/it/}{INFN} Bari\\
 %phone: (080) 544-2437 : int. 2437\\
